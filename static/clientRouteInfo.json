@@ -1,0 +1,45 @@
+{
+    "path": "/home",
+    "component": "home",
+    "children": [{
+      "path": "devManage",
+      "title": "设备管理",
+      "key": "1",
+      "children": [{
+        "path": "monitor",
+        "title": "数据监控",
+        "key": "1-1",
+        "children": [{
+          "path": "alarm",
+          "key": "1-1-1",
+          "title": "报警记录",
+          "component": ""
+        }, {
+          "path": "historydata",
+          "key": "1-1-2",
+          "title": "历史数据",
+          "component": ""
+        }]
+      }, {
+        "path": "devlist",
+        "title": "设备列表",
+        "component": "",
+        "key": "1-2"
+      }, {
+        "path": "onlinerecord",
+        "title": "上线记录",
+        "component": "",
+        "key": "1-3"
+      }]
+    }, {
+      "path": "statistics",
+      "title": "数据统计",
+      "key": "3",
+      "children": [{
+        "path": "devdata",
+        "title": "设备数据",
+        "component": "",
+        "key": "3-1"
+      }]
+    }]
+  }
