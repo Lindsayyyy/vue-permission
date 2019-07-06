@@ -1,6 +1,7 @@
 # vue-permission
 
 > A Vue.js project
+博客详解：[vue前端权限控制](https://blog.csdn.net/feiyu_may/article/details/94833709)
 
 ## Build Setup
 
